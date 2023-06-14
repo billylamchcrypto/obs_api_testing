@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "obs-api-testing"
+version = "0.1.0"
+description = ""
+authors = ["billylam <billy.lam@crypto.com>"]
+readme = "README.md"
+packages = [{include = "obs_api_testing"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytest = "^7.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
